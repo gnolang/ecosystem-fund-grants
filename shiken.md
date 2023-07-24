@@ -263,11 +263,11 @@ As a developer I want to continue reaching new levels of Go knowledge and I thin
 
 #### The submission
 
-The main goal of this project it's possible to <u>**evaluate applicants to measure their skills**</u>.
+The main goal of this project is to <u>**evaluate applicants to measure their skills**</u>.
 
 But given the transparency of blockchain this tool can also 
-* <u>**Provide applicants with lists of questions to applicants to prepare and study before applying to exams**</u> if the evaluators want to make the questions visible. and 
-* <u>**Results will be transparent for both sides**</u>, making the exams honest, since the answers per candidate will be onchain for everyone. 
+* <u>**Provide applicants with lists of questions to applicants to prepare and study before applying to exams**</u> if the evaluators make their questions visible when adding questions to their repository and 
+* <u>**Results will be transparent for both sides**</u>, making the exams honest, since the answers by candidates will be onchain for everyone and the private keys will require to be published onchain too after every exam.
 
 As a collateral result, this project will 
 * Provide <u>**a simple infrastructure for sending private messages between addresses**</u>
