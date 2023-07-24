@@ -2,6 +2,11 @@
 
 Antonio Gonzalez Fernandez (a.k.a. Jorin)
 
+## Project name
+
+#### Shiken 
+(from "試験" [しけん, shiken], exam in Japanese)
+
 ## Members Github handlers
 
 Only me, @iam-agf
@@ -12,11 +17,10 @@ Only me, @iam-agf
 
 [Github](https://github.com/iam-agf)
 
-## Title for the project
 
-#### Shiken 
+## Title for the grant request
 
-(from "試験" [しけん, shiken], exam in Japanese)
+Shiken 
 
 ## Grant type
 
@@ -184,7 +188,7 @@ In the case of the applicants they don't require to do anything more than answer
 4. The `pub` key generated will encrypt the symmetric key `sym`.
 5. Both encrypted messages, `symmetricEncrypted(answer)` and `asymmetricEncrypted(sym)` will be sent as part of their tx.
 
-Because of this, when the evaluator calls for the answer, the browser will first decrypt the symmetric key `sym`, and then will use it decrypt the answer. This way there is no way the applicants can copy each other. Another thing to mention is that the exam won't be seen identical by the applicants since the questions will be disordered so the answers and the encrypting will be almost impossible to be identical. For more information about the encrypting process [please check this dummy model created to briefly explain how it would work](https://github.com/iam-agf/encryptModel).
+Because of this, when the evaluator calls for the answer, the browser will first decrypt the symmetric key `sym`, and then will use it decrypt the answer. This way there is no way the applicants can copy each other. Another thing to mention is that the exam won't be seen identical by the applicants since the questions will be disordered so the answers and the encrypting will be almost impossible to be identical. For more information about the encrypting process [please check this dummy model created to briefly explain how it would work](https://github.com/iam-agf/encryptModel) and don't hesitate asking me any detail on the vision and work flow I have about this project.
 
 ## Contributions, issues and pull requests made to Gno and Game of Realms 
 
