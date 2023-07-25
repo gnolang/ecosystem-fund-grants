@@ -8,7 +8,7 @@
 Twiiter: https://twitter.com/PixelBeanStudio 
 Website: Website: Demo development
 
-### The title: PixelBeans - The largest number of NFT experimental projects in the world, everyone can get a unique blockchain color through NFT.
+### The title: PixelBeans - The largest number of NFT experimental projects in the world, we are trying give everyone some unique NFTs.
 
 ### Grant type: Builder
 
