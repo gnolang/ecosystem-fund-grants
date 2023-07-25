@@ -2,7 +2,7 @@
 
 ### Project name: PixelBeans
 
-### Team member GitHub handles: https://github.com/xbdyhh
+### Team member GitHub handles: xbdyhh
 
 ### Links to Twitter, Website 
 Twiiter: https://twitter.com/PixelBeanStudio 
