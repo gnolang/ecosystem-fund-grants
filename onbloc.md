@@ -21,7 +21,7 @@
 ## Links to Twitter, website..etc.
 ### Website/twitter/blog links:
 - Onbloc: [Website](https://onbloc.xyz/), [Twitter](https://twitter.com/onblocxyz), [Blog](https://medium.com/onbloc) 
-- Adena: [Website](https://adena.app/), [Twitter](https://twitter.com/adenaapp), [Blog](https://medium.com/@adena.app) 
+- Adena: [Website](https://adena.app/), [Twitter](https://twitter.com/adenaapp), [Blog](https://medium.com/@adena.app), [Developer Discord](https://discord.gg/XzJMXXfrS9) 
 - Gnoscan: [Website](https://gnoscan.io/), [Twitter](https://twitter.com/gnoscan)  
 - Gnoswap: [Website](http://gnoswap.io/) - (Yet to be open), [Twitter](https://twitter.com/gnoswaplabs), [Blog](https://medium.com/@gnoswaplabs)
 
@@ -134,8 +134,8 @@ I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milest
     - [ ] Add sending transaction via username (/r/demo/users)
     - [ ] Add in-app faucet
     - [ ] Add a pop-window feature 
-    - [ ] Add more Adena APIs for dapps [Adena Docs](https://docs.adena.app/integrations/)
-    - [ ] Develop an API Provider (Similar to [Phantom's Provider](https://docs.phantom.app/solana/detecting-the-provider)
+    - [ ] Add more Adena APIs for dapps ([Adena Docs](https://docs.adena.app/integrations/))
+    - [ ] Develop an API Provider (Similar to [Phantom's Provider](https://docs.phantom.app/solana/detecting-the-provider))
     - [ ] Support multi-chain (Prerequisite: IBC support on Gnoland)
     - [ ] Support IBC transfer (Prerequisite: IBC support on Gnoland)
     - [ ] Add the in-app swap feature (Prerequisite: Gnoswap Mainnet Launch)
@@ -201,8 +201,8 @@ Gnoscan
     - [ ] Testing & debugging
 
 2. Misc.
-- [ ] Maintain the Gnoland Developer Portal (https://docs.onbloc.xyz/)
-- [ ] Maintain the gno-token-resource repo (https://github.com/onbloc/gno-token-resource)
+- [ ] Maintain the [Gnoland Developer Portal](https://docs.onbloc.xyz/)
+- [ ] Maintain the [gno-token-resource repo](https://github.com/onbloc/gno-token-resource)
 - [ ] Write Gno-related research & technical blogs ([Onbloc](https://medium.com/onbloc), [Adena](https://medium.com/@adena.app), [Gnoswap](https://medium.com/@gnoswaplabs))
 
 ### Your idea for fair funding of the proposal
