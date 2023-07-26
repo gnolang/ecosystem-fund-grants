@@ -141,7 +141,7 @@ I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milest
     - [ ] Add the in-app swap feature (Prerequisite: Gnoswap Mainnet Launch)
     - [ ] Monthly version update with patch notes
 
-Gnoscan
+3. Gnoscan
 - [ ] Maintenance of the current version of Gnoscan for Testnet 3/4/…
 - [ ] Gnoscan 1.0 (ready for mainnet):
     - [ ] Add the newest features developed on Gnoland (i.g. emit & events)
@@ -164,41 +164,41 @@ Gnoscan
     - [ ] Create an Information Architecture document
 - [ ] Development
     - [ ] [Core contract](https://github.com/gnoswap-labs/gnoswap) //blocked by Gno Core No.2, No.5
-    - [ ] pool.gno
-    - [ ] swap_router.gno
-    - [ ] position_manager.gno
-    - [ ] staker.gno
-    - [ ] …
-    - [ ] Test cases
-- [ ] [Side contract](https://github.com/gnoswap-labs/gnoswap)  //blocked by Gno Core No.2, No.5
-    - [ ] swap_math.gno
-    - [ ] sqrt_price_math.gno
-    - [ ] tick.gno
-    - [ ] tick_math.gno
-    - [ ] liquidity_management.gno
-    - [ ] nonfungible_position_descriptor.gno
-    - [ ] incentive_id.gno
-    - [ ] nft_position_info.gno
-    - [ ] reward_math.gno
-    - [ ] utils.gno
-    - [ ] Governance related realms
-    - [ ] …
-    - [ ] Test cases
-- [ ] [Backend & infrastructure](https://github.com/gnoswap-labs/gnoswap-api)  //blocked by Gno Core No.2, No.5
-    - [ ] Design API endpoints using Postman
-    - [ ] Write backend and infrastructure in Golang
-    - [ ] Set up a server
-- [ ] [Frontend](https://github.com/gnoswap-labs/gnoswap-interface) //blocked by Gno Core No.2, No.5
-    - [ ] UI planning and design (Figma)
-    - [ ] Develop UI components
-    - [ ] Define data calls/responses
-    - [ ] Develop hook functions
-    - [ ] Develop service functions
-    - [ ] Integrate with the contracts
-    - [ ] Integrate with the backend
-    - [ ] Test - debugging & QA
-    - [ ] Integration for frontend & backend & contracts
-    - [ ] Testing & debugging
+      - [ ] pool.gno
+      - [ ] swap_router.gno
+      - [ ] position_manager.gno
+      - [ ] staker.gno
+      - [ ] …
+      - [ ] Test cases
+  - [ ] [Side contract](https://github.com/gnoswap-labs/gnoswap)  //blocked by Gno Core No.2, No.5
+      - [ ] swap_math.gno
+      - [ ] sqrt_price_math.gno
+      - [ ] tick.gno
+      - [ ] tick_math.gno
+      - [ ] liquidity_management.gno
+      - [ ] nonfungible_position_descriptor.gno
+      - [ ] incentive_id.gno
+      - [ ] nft_position_info.gno
+      - [ ] reward_math.gno
+      - [ ] utils.gno
+      - [ ] Governance related realms
+      - [ ] …
+      - [ ] Test cases
+  - [ ] [Backend & infrastructure](https://github.com/gnoswap-labs/gnoswap-api)  //blocked by Gno Core No.2, No.5
+      - [ ] Design API endpoints using Postman
+      - [ ] Write backend and infrastructure in Golang
+      - [ ] Set up a server
+  - [ ] [Frontend](https://github.com/gnoswap-labs/gnoswap-interface) //blocked by Gno Core No.2, No.5
+      - [ ] UI planning and design (Figma)
+      - [ ] Develop UI components
+      - [ ] Define data calls/responses
+      - [ ] Develop hook functions
+      - [ ] Develop service functions
+      - [ ] Integrate with the contracts
+      - [ ] Integrate with the backend
+      - [ ] Test - debugging & QA
+      - [ ] Integration for frontend & backend & contracts
+      - [ ] Testing & debugging
 
 2. Misc.
 - [ ] Maintain the [Gnoland Developer Portal](https://docs.onbloc.xyz/)
