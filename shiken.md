@@ -11,6 +11,10 @@ Antonio Gonzalez Fernandez (a.k.a. Jorin)
 
 Only me, @iam-agf
 
+## Mail
+
+agf0710@gmail.com
+
 ## Links
 
 [Twitter](https://twitter.com/cosmo_jorin)
