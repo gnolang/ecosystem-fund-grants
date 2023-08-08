@@ -19,7 +19,7 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
 
 
 
-* **Team member GitHub handles (if applicable)**: jefft0, d4ryl00, iuricmp, gfanton
+* **Team member GitHub handles (if applicable)**: jefft0, d4ryl00, iuricmp
 * **Links to Twitter, website..etc**.
     * [https://berty.tech/](https://berty.tech/) 
     * [https://wesh.network/](https://wesh.network/) 
