@@ -50,7 +50,7 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
         _*Each milestone is detailed further at the end of this document._
 
 * **Your idea for fair funding of the proposal**
-    * Start with a 3 month trial period with € 60k a month, for X developers
+    * Start with a 3 month trial period with € 60k a month, for 3 developers
 * **What do you and the submission bring to the Gno.land platform and community?**
     * Berty’s proposal would allow for a mobile package to be used by other Gno.land based projects to include mobile functionality in their apps. 
     * Berty would showcase the mobile functionality with a killer mobile gaming app
