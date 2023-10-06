@@ -53,7 +53,6 @@ For the tinker program, we have three categories:
 * Develop comprehensive GitHub and AWS integration for Gno.land, including streamlined deployment processes, continuous integration and delivery pipelines, and monitoring tools.
 * Create Helm charts for easy deployment and management of Gno clusters, enabling users to quickly set up and scale their Gno infrastructure.
 * Improve overall quality by working on the testing pipeline and improve CI/CD.
-* Enhance Gno.land security by conducting regular vulnerability assessments, penetration testing, and implementing best practices for secure smart contract development.
 * Improve validator and developer experience, especially when developing locally.
 * You can select an idea from there too: https://github.com/gnolang/hackerspace/issues
 
