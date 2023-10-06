@@ -105,8 +105,8 @@ The Onbloc team is solely focused on developing software for Gnoland and contrib
 Milestones are set at a time frame of 5 months.
 
 ### Milestone #1 - Road to Mainnet (Gno Core Contributions)
-1. Gno Core
 NOTE: These are essential features needed for mainnet and dApps. It requires co-working with core developers & contributors to complete. We will do our best to contribute to completing these features by actively participating in development, providing insights, and helping other developers who are already working on it.
+1. Gno Core
 - [ ] 1. Contract-interaction [#757](https://github.com/gnolang/gno/issues/757)
 - [ ] 2. Emit & events [#575](https://github.com/gnolang/gno/issues/575), [#853](https://github.com/gnolang/gno/pull/853)
 - [ ] 3. Write pure Gno packages [Go<>Gno compatibility - stdlibs](https://github.com/gnolang/gno/blob/master/gnovm/docs/go-gno-compatibility.md#stdlibs), [#33](https://github.com/gnolang/roadmap/issues/33)
