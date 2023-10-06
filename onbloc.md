@@ -2,7 +2,7 @@
 - Onbloc
 
 ## Project name (if applicable)
-- Adena / Gnoscan / Gnoswap
+- Gno Core Contribution / Adena / Gnoscan / Gnoswap
 
 ## Team member GitHub handles (if applicable)
 - Dongwon Shin (CEO) - https://github.com/dongwon8247
@@ -32,15 +32,13 @@
 - Gnoswap Docs (https://docs.gnoswap.io/)
 
 ### GitHub links:
+- Gno Core Contributions (https://github.com/gnoswap-labs/gno)
 - Adena Frontend (https://github.com/onbloc/adena-wallet)
 - Gnoscan Frontend (https://github.com/onbloc/gnoscan)
-- Onbloc API (Backend for Adena and Gnoscan) (https://github.com/onbloc/onbloc-api)
 - Gnoswap Frontend (https://github.com/gnoswap-labs/gnoswap-interface)
 - Gnoswap Contracts (https://github.com/gnoswap-labs/gnoswap)
-- Gnoswap API (https://github.com/gnoswap-labs/gnoswap-api)
 - Gnoland Token Resource (https://github.com/onbloc/gno-token-resource)
 - Gnoland Developer Portal (https://github.com/onbloc/gnoland-tutorials)
-- Gno Core Contributions (https://github.com/gnoswap-labs/gno)
 
 ## The title of your grant submission (how do you want us to remember you 😊)
 - Gnoland Grants Program Application by Onbloc
@@ -49,6 +47,7 @@
 - Builder
 
 ## A short description of what you are proposing (applies to all submissions)
+- Gno Core Contributions that are essential to the mainnet launch.
 - Public infrastructure services: Products including a wallet, a block explorer, and a decentralized exchange, all of which are essential for each blockchain ecosystem.
 - Development and support for initiatives for building functions of the Gno Core necessary to build the above mentioned products. These functions are also required on Gnoland to launch as a production-ready blockchain.
 
@@ -56,9 +55,7 @@
 The Onbloc team is solely focused on developing software for Gnoland and contributing to Gnoland. We’d like to use the grants for the following purposes:
 - To cover a portion of the existing operational costs
   - Currently, the total monthly operational cost is ~ $40,000 USD, at a burn rate of ~15%.
-- To hire 3-4 more developers
-  - Experienced Golang developer for Gno Core (1~2)
-  - Experienced smart contract developer for Gnoswap (1~2)
+- To hire 2-3 experienced Golang engineers
 
 ## Contributions, issues and pull requests made to Gno and Game of Realms (links please)
 ### Contributions
@@ -105,26 +102,22 @@ The Onbloc team is solely focused on developing software for Gnoland and contrib
 - Our members have gathered with a strictly aligned vision of building a suite of streamlined products to contribute to the development of the Gnoland ecosystem. Our workflow is optimized for each member to work as efficiently as possible to make the most out of a small, focused team.
 
 ## Milestones and overall time frame of your proposal
-I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milestones include contribution to Gno Core, which we need to complete in order to achieve our milestones. We believe our contribution to Gno Core will accelerate the launch of the Gnoland mainnet and help other Gnoland developers.
+Milestones are set at a time frame of 5 months.
 
-### Milestone #1 - Road to Mainnet (Gno Core & Adena & Gnoscan)
+### Milestone #1 - Road to Mainnet (Gno Core Contributions)
 1. Gno Core
-- [ ] 1. (support) Txindexer [#275](https://github.com/gnolang/gno/issues/275), [#546](https://github.com/gnolang/gno/pull/546) (Led by Milos, a core member)
-- [ ] 2. (support) Emit & events [#575](https://github.com/gnolang/gno/issues/575), [#853](https://github.com/gnolang/gno/pull/853) (Led by anarcher, an individual contributor)
-- [ ] 3. (support) Multi node [#863](https://github.com/gnolang/gno/issues/863), [#871](https://github.com/gnolang/gno/pull/871), [#889](https://github.com/gnolang/gno/pull/889) (Co-led by anarcher, an individual contributor, and Manfred, a core member)
-- [ ] 4. (lead) Multi-node testnet initiative [#9](https://github.com/gnolang/hackerspace/issues/9#issuecomment-1592519372), [#863](https://github.com/gnolang/gno/issues/863)
-- [ ] 5. (lead) Write pure Gno packages [Go<>Gno compatibility - stdlibs](https://github.com/gnolang/gno/blob/master/gnovm/docs/go-gno-compatibility.md#stdlibs), [#33](https://github.com/gnolang/roadmap/issues/33)
-    - [ ] bigint [#650](https://github.com/gnolang/gno/issues/650), [#764](https://github.com/gnolang/gno/pull/764)
-    - [ ] bytes
-    - [ ] encoding
-    - [ ] runtime
-    - [ ] reflect
-    - [ ] testing
-    - [ ] io
-- [ ] 6. (support) gno/tm2-js maintenance / improvements [#701](https://github.com/gnolang/gno/issues/701) (Led by Milos, a core member)
-- [ ] 7. GnoVM debugging for the effective period
+NOTE: These are essential features needed for mainnet and dApps. It requires co-working with core developers & contributors to complete. We will do our best to contribute to completing these features by actively participating in development, providing insights, and helping other developers who are already working on it.
+- [ ] 1. Contract-interaction [#757](https://github.com/gnolang/gno/issues/757)
+- [ ] 2. Emit & events [#575](https://github.com/gnolang/gno/issues/575), [#853](https://github.com/gnolang/gno/pull/853)
+- [ ] 3. Write pure Gno packages [Go<>Gno compatibility - stdlibs](https://github.com/gnolang/gno/blob/master/gnovm/docs/go-gno-compatibility.md#stdlibs), [#33](https://github.com/gnolang/roadmap/issues/33)
+- [ ] 4. Multi node [#863](https://github.com/gnolang/gno/issues/863), [#871](https://github.com/gnolang/gno/pull/871), [#889](https://github.com/gnolang/gno/pull/889)
+- [ ] 5. Multi-node testnet initiative [#9](https://github.com/gnolang/hackerspace/issues/9#issuecomment-1592519372), [#863](https://github.com/gnolang/gno/issues/863)
+- [ ] 6. Etc 
+    - [ ] gno-js/tm2-js improvements 
+    - [ ] GnoVM debugging and fixing bugs
 
-2. Adena
+### Milestone #2 - Enhancing Wallet & Explorer and Bringing Dex to Gnoland
+1. Adena
 - [ ] Maintenance of the current version of Adena for Testnet 3/4/…
 - [ ] Adena 1.0 (ready for mainnet):
     - [ ] Add the newest features developed in Gnoland (i.g. std.Session)
@@ -141,7 +134,7 @@ I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milest
     - [ ] Add the in-app swap feature (Prerequisite: Gnoswap Mainnet Launch)
     - [ ] Monthly version update with patch notes
 
-3. Gnoscan
+2. Gnoscan
 - [ ] Maintenance of the current version of Gnoscan for Testnet 3/4/…
 - [ ] Gnoscan 1.0 (ready for mainnet):
     - [ ] Add the newest features developed on Gnoland (i.g. emit & events)
@@ -150,11 +143,10 @@ I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milest
     - [ ] Add GRC721 support
     - [ ] Develop the Governance page (DAO & SubDAO, PoC-focused)
     - [ ] Develop the Validators page
-    - [ ] Rewrite block synchronization program //blocked by Gno Core No.1, No.2, No.3
+    - [ ] Rewrite block synchronization program 
     - [ ] Release the Gnoscan API docs
 
-### Milestone #2 - Bringing a DEX to Gnoland (Gnoswap)
-1. Gnoswap
+3. Gnoswap
 - [ ] Planning
     - [ ] Research Uniswap V3 (Concentrated LP), Maverick AMM and GMX
     - [ ] Research core contracts and libraries of DEXs
@@ -163,58 +155,59 @@ I’ve set Onbloc’s milestones at a time frame of 5 months. Most of our milest
     - [ ] Design tokenomics 
     - [ ] Create an Information Architecture document
 - [ ] Development
-    - [ ] [Core contract](https://github.com/gnoswap-labs/gnoswap) //blocked by Gno Core No.2, No.5
-      - [ ] pool.gno
-      - [ ] swap_router.gno
-      - [ ] position_manager.gno
-      - [ ] staker.gno
-      - [ ] …
-      - [ ] Test cases
-  - [ ] [Side contract](https://github.com/gnoswap-labs/gnoswap)  //blocked by Gno Core No.2, No.5
-      - [ ] swap_math.gno
-      - [ ] sqrt_price_math.gno
-      - [ ] tick.gno
-      - [ ] tick_math.gno
-      - [ ] liquidity_management.gno
-      - [ ] nonfungible_position_descriptor.gno
-      - [ ] incentive_id.gno
-      - [ ] nft_position_info.gno
-      - [ ] reward_math.gno
-      - [ ] utils.gno
-      - [ ] Governance related realms
-      - [ ] …
-      - [ ] Test cases
-  - [ ] [Backend & infrastructure](https://github.com/gnoswap-labs/gnoswap-api)  //blocked by Gno Core No.2, No.5
-      - [ ] Design API endpoints using Postman
-      - [ ] Write backend and infrastructure in Golang
-      - [ ] Set up a server
-  - [ ] [Frontend](https://github.com/gnoswap-labs/gnoswap-interface) //blocked by Gno Core No.2, No.5
-      - [ ] UI planning and design (Figma)
-      - [ ] Develop UI components
-      - [ ] Define data calls/responses
-      - [ ] Develop hook functions
-      - [ ] Develop service functions
-      - [ ] Integrate with the contracts
-      - [ ] Integrate with the backend
-      - [ ] Test - debugging & QA
-      - [ ] Integration for frontend & backend & contracts
-      - [ ] Testing & debugging
+    - [ ] [Core contract](https://github.com/gnoswap-labs/gnoswap)
+        - [ ] pool.gno
+        - [ ] swap_router.gno
+        - [ ] position_manager.gno
+        - [ ] staker.gno
+        - [ ] …
+        - [ ] Test cases
+    - [ ] [Side contract](https://github.com/gnoswap-labs/gnoswap)  
+        - [ ] swap_math.gno
+        - [ ] sqrt_price_math.gno
+        - [ ] tick.gno
+        - [ ] tick_math.gno
+        - [ ] liquidity_management.gno
+        - [ ] nonfungible_position_descriptor.gno
+        - [ ] incentive_id.gno
+        - [ ] nft_position_info.gno
+        - [ ] reward_math.gno
+        - [ ] utils.gno
+        - [ ] Governance related realms
+        - [ ] …
+        - [ ] Test cases
+    - [ ] [Backend & infrastructure](https://github.com/gnoswap-labs/gnoswap-api)  
+        - [ ] Design API endpoints using Postman
+        - [ ] Write backend and infrastructure in Golang
+        - [ ] Set up a server
+    - [ ] [Frontend](https://github.com/gnoswap-labs/gnoswap-interface)
+        - [ ] UI planning and design (Figma)
+        - [ ] Develop UI components
+        - [ ] Define data calls/responses
+        - [ ] Develop hook functions
+        - [ ] Develop service functions
+        - [ ] Integrate with the contracts
+        - [ ] Integrate with the backend
+        - [ ] Test - debugging & QA
+        - [ ] Integration for frontend & backend & contracts
+        - [ ] Testing & debugging
 
-2. Misc.
+4. Misc.
 - [ ] Maintain the [Gnoland Developer Portal](https://docs.onbloc.xyz/)
 - [ ] Maintain the [gno-token-resource repo](https://github.com/onbloc/gno-token-resource)
-- [ ] Write Gno-related research & technical blogs ([Onbloc](https://medium.com/onbloc), [Adena](https://medium.com/@adena.app), [Gnoswap](https://medium.com/@gnoswaplabs))
+- [ ] Release Gno-related research & technical blogs ([Onbloc](https://medium.com/onbloc), [Adena](https://medium.com/@adena.app), [Gnoswap](https://medium.com/@gnoswaplabs))
 
 ### Your idea for fair funding of the proposal
 - For the aforementioned purposes, we request a total grant of $600,000 USD.
 - We propose the grant to be distributed in three multiple batches of even sizes.
     - Batch 1: Upon the approval of the grant.
-    - Batch 2: ≈50% of all tasks complete and reviewed by the core team.
-    - Batch 3: ≈95% of all tasks complete and reviewed by the core team.
-- For Batch 2 and 3, we will present our deliverables to the core team and request for a review. All of the deliverables will be submitted either on-chain or on Github for transparency and auditability. We want the Gnoland ecosystem to benefit from the grant we receive from this funding, hence the reason we will open source all of our source code included in the scope of this proposal.
+    - Batch 2: ≈50% of all tasks, ≈50% of Gno Core tasks complete and reviewed by the core team.
+    - Batch 3: ≈95% of all tasks, ≈95% of Gno Core tasks complete and reviewed by the core team.
+- For Batch 2 and 3, we will present our deliverables to the core team and request for a thorough review. All of the deliverables will be submitted either on-chain or on Github for transparency and auditability. We want the Gnoland ecosystem to benefit from the grant we receive from this funding, hence the reason we will open source all of our source code included in the scope of this proposal.
 - An update will be made to this PR once per month as a periodic report.
 
 ### What do you and the submission bring to the Gno.land platform and community?
+- Contribute to complete the essential features that the Gnoland blockchain needs for mainnet.
 - Provide quality and production-level infrastructure tools (wallet, explorer, dex), which are essential for each blockchain ecosystem, for users and developers for testnets and upon the mainnet launch.
 - Bring Gnoswap, a dex with a suite of customizable exchange solutions powered by its liquidity that will test the scalability and performance of Gno.land to its limits.
 Contribute to the Gno Core to accelerate the mainnet launch.
