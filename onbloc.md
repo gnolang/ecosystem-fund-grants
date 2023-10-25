@@ -8,9 +8,9 @@
 - Dongwon Shin (CEO) - https://github.com/dongwon8247
 - Peter Yoon (CSO) - None
 - Harry Oh (Head of Engineering) -  https://github.com/harryoh
-- Blake Lee (Senior Blockchain Developer) - https://github.com/r3v4s
-- Jinwoo Choi (Full-stack Developer) - https://github.com/jinoosss
-- Juntae Park (Frontend Developer): https://github.com/juntaepark
+- Blake Lee (Senior Backend Engineer) - https://github.com/r3v4s
+- Jinwoo Choi (Full-stack Engineer) - https://github.com/jinoosss
+- Byeongjun Lee (Gno Core Engineer) - https://github.com/notJoon
 - Kyungsu Lee (Product Owner): https://github.com/akstar82
 - Andrew Kang (Project Manager & Research): https://github.com/adr-sk
 - Joon (Technical Advisor): https://github.com/mconcat
@@ -106,27 +106,27 @@ Milestones are set at a time frame of 5 months.
 
 ### Milestone #1 - Road to Mainnet (Gno Core Contributions)
 NOTE: These are essential features needed for mainnet and dApps. It requires co-working with core developers & contributors to complete. We will do our best to contribute to completing these features by actively participating in development, providing insights, and helping other developers who are already working on it.
-1. Gno Core
+1. Gno Core (Details: https://github.com/gnoswap-labs/gno/issues/7)
 - [ ] 1. Contract-interaction [#757](https://github.com/gnolang/gno/issues/757)
 - [ ] 2. Emit & events [#575](https://github.com/gnolang/gno/issues/575), [#853](https://github.com/gnolang/gno/pull/853)
 - [ ] 3. Write pure Gno packages [Go<>Gno compatibility - stdlibs](https://github.com/gnolang/gno/blob/master/gnovm/docs/go-gno-compatibility.md#stdlibs), [#33](https://github.com/gnolang/roadmap/issues/33)
-- [ ] 4. Multi node [#863](https://github.com/gnolang/gno/issues/863), [#871](https://github.com/gnolang/gno/pull/871), [#889](https://github.com/gnolang/gno/pull/889)
+- [ ] 4. Multi-node [#863](https://github.com/gnolang/gno/issues/863), [#871](https://github.com/gnolang/gno/pull/871), [#889](https://github.com/gnolang/gno/pull/889)
 - [ ] 5. Multi-node testnet initiative [#9](https://github.com/gnolang/hackerspace/issues/9#issuecomment-1592519372), [#863](https://github.com/gnolang/gno/issues/863)
 - [ ] 6. Etc 
-    - [ ] gno-js/tm2-js improvements 
+    - [ ] gno-js/tm2-js contributions 
     - [ ] GnoVM debugging and fixing bugs
 
 ### Milestone #2 - Enhancing Wallet & Explorer and Bringing Dex to Gnoland
 1. Adena
 - [ ] Maintenance of the current version of Adena for Testnet 3/4/…
 - [ ] Adena 1.0 (ready for mainnet):
-    - [ ] Add the newest features developed in Gnoland (i.g. std.Session)
+    - [ ] Develop an Airgap feature
+    - [ ] Change UIs for creating/managing accounts to encourage users to use safer and more secure methods (Airgap, Hardware, etc) 
     - [ ] Add GRC721 support
     - [ ] UI/UX improvements (Transition flow in general, Settings, and Sidebar)
-    - [ ] Add a notification feature //blocked by Gno Core No.2
+    - [ ] Develop a notification feature
+    - [ ] Develop a pop-window (floating) feature 
     - [ ] Add sending transaction via username (/r/demo/users)
-    - [ ] Add in-app faucet
-    - [ ] Add a pop-window feature 
     - [ ] Add more Adena APIs for dapps ([Adena Docs](https://docs.adena.app/integrations/))
     - [ ] Develop an API Provider (Similar to [Phantom's Provider](https://docs.phantom.app/solana/detecting-the-provider))
     - [ ] Support multi-chain (Prerequisite: IBC support on Gnoland)
@@ -137,13 +137,12 @@ NOTE: These are essential features needed for mainnet and dApps. It requires co-
 2. Gnoscan
 - [ ] Maintenance of the current version of Gnoscan for Testnet 3/4/…
 - [ ] Gnoscan 1.0 (ready for mainnet):
-    - [ ] Add the newest features developed on Gnoland (i.g. emit & events)
-    - [ ] Add emit & event function for tracking Gno addresses and realms //blocked by Gno Core No.2
-    - [ ] Add detailed information of GRC20 (Holders, description, and distribution)
+    - [ ] Implement emit & event from Gno Core
+    - [ ] Develop detailed information on GRC20 (Holders, description, and distribution)
     - [ ] Add GRC721 support
     - [ ] Develop the Governance page (DAO & SubDAO, PoC-focused)
     - [ ] Develop the Validators page
-    - [ ] Rewrite block synchronization program 
+    - [ ] Enhance the Gno-sync program and APIs 
     - [ ] Release the Gnoscan API docs
 
 3. Gnoswap
@@ -154,13 +153,13 @@ NOTE: These are essential features needed for mainnet and dApps. It requires co-
     - [ ] Complete documentation (White paper, contracts summary, user guide, and developer guide)
     - [ ] Design tokenomics 
     - [ ] Create an Information Architecture document
+    - [ ] Architect components and plan for each component for development 
 - [ ] Development
     - [ ] [Core contract](https://github.com/gnoswap-labs/gnoswap)
         - [ ] pool.gno
         - [ ] swap_router.gno
         - [ ] position_manager.gno
         - [ ] staker.gno
-        - [ ] …
         - [ ] Test cases
     - [ ] [Side contract](https://github.com/gnoswap-labs/gnoswap)  
         - [ ] swap_math.gno
@@ -174,26 +173,23 @@ NOTE: These are essential features needed for mainnet and dApps. It requires co-
         - [ ] reward_math.gno
         - [ ] utils.gno
         - [ ] Governance related realms
-        - [ ] …
         - [ ] Test cases
-    - [ ] [Backend & infrastructure](https://github.com/gnoswap-labs/gnoswap-api)  
-        - [ ] Design API endpoints using Postman
-        - [ ] Write backend and infrastructure in Golang
-        - [ ] Set up a server
+    - [x] [Backend & infrastructure]
+        - [ ] Set up the Gno-sync program
+        - [ ] Design API endpoints
+        - [ ] Write backend/APIs in Golang
+        - [ ] Set up infrastructure
     - [ ] [Frontend](https://github.com/gnoswap-labs/gnoswap-interface)
         - [ ] UI planning and design (Figma)
         - [ ] Develop UI components
         - [ ] Define data calls/responses
         - [ ] Develop hook functions
         - [ ] Develop service functions
-        - [ ] Integrate with the contracts
-        - [ ] Integrate with the backend
-        - [ ] Test - debugging & QA
-        - [ ] Integration for frontend & backend & contracts
+        - [ ] Integrate Realms and APIs with the interface (Frontend)
         - [ ] Testing & debugging
 
 4. Misc.
-- [ ] Maintain the [Gnoland Developer Portal](https://docs.onbloc.xyz/)
+- ~~Maintain the [Gnoland Developer Portal](https://docs.onbloc.xyz/)~~ Moved to the Gno official docs and depreciated. 
 - [ ] Maintain the [gno-token-resource repo](https://github.com/onbloc/gno-token-resource)
 - [ ] Release Gno-related research & technical blogs ([Onbloc](https://medium.com/onbloc), [Adena](https://medium.com/@adena.app), [Gnoswap](https://medium.com/@gnoswaplabs))
 
@@ -207,7 +203,7 @@ NOTE: These are essential features needed for mainnet and dApps. It requires co-
 - An update will be made to this PR once per month as a periodic report.
 
 ### What do you and the submission bring to the Gno.land platform and community?
-- Contribute to complete the essential features that the Gnoland blockchain needs for mainnet.
+- Contribute to completing the essential features in Gno Core that the Gnoland blockchain needs for mainnet.
 - Provide quality and production-level infrastructure tools (wallet, explorer, dex), which are essential for each blockchain ecosystem, for users and developers for testnets and upon the mainnet launch.
 - Bring Gnoswap, a dex with a suite of customizable exchange solutions powered by its liquidity that will test the scalability and performance of Gno.land to its limits.
 Contribute to the Gno Core to accelerate the mainnet launch.
