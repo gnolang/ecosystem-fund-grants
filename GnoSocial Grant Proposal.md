@@ -54,7 +54,7 @@ The goal is to create a test-bed for building decentralized social media type of
         - We will also make intermediary demos when it makes sense and we also plan to write at least one blogpost related to this grant.
         - If it will make sense and if we will have the resources, we will organize workshops to familiarize the interested partners with the results that will emerge from this grant.
 
-[https://lh7-us.googleusercontent.com/2nk9i42MBN9UFZLq3eGE4vTWUaaQcDp_ylvirrR936WAvg-529z35Mv5RDXo2Ypa5ugzcMzouzGIg9QviIxQx2rnpqq--OAT9OUZtIAjC8ti32zrOumfAHdnkQjICXAExCCit7lWs8U_ZvmOvwNV_Q](https://lh7-us.googleusercontent.com/2nk9i42MBN9UFZLq3eGE4vTWUaaQcDp_ylvirrR936WAvg-529z35Mv5RDXo2Ypa5ugzcMzouzGIg9QviIxQx2rnpqq--OAT9OUZtIAjC8ti32zrOumfAHdnkQjICXAExCCit7lWs8U_ZvmOvwNV_Q)
+![GnoSocial Roadmap](GnoSocial_Grant_Proposal.jpg)
 
 - **Your idea for fair funding of the proposal**
     - 6 months of continuous funding, from the beginning of December 2023 until the end of May 2024.
@@ -70,19 +70,15 @@ The goal is to create a test-bed for building decentralized social media type of
             - Berty presentation at IPFS Camp 2019 about Bluetooth Low Energy, libp2p on mobile [https://www.youtube.com/watch?v=p2ZAm2fAvUo](https://www.youtube.com/watch?v=p2ZAm2fAvUo)
             - Berty presentations at IPFS Camp 2022
                 - Wesh Network enables builders to create more powerful dApps [https://www.youtube.com/watch?v=PWUnvz9eiF8](https://www.youtube.com/watch?v=PWUnvz9eiF8)
-                - Gomobile toolkit support
-                    
-                    [https://www.youtube.com/watch?v=wZ7DrWXBHUI](https://www.youtube.com/watch?v=wZ7DrWXBHUI)
-                    
+                - Gomobile toolkit support [https://www.youtube.com/watch?v=wZ7DrWXBHUI](https://www.youtube.com/watch?v=wZ7DrWXBHUI) 
             - Berty presentation at Paris P2P Festival 2022
                 - “*Berty and Offline Communications*”: [https://www.youtube.com/watch?v=2fHHfaeT42M](https://www.youtube.com/watch?v=2fHHfaeT42M)
                 - “*Optimize libp2p on Mobile*”: [https://www.youtube.com/watch?v=1-lF8fJ9GgM](https://www.youtube.com/watch?v=1-lF8fJ9GgM)
         - We maintain multiple open-source projects besides the Berty Messenger app: go-orbit-db, go-ipfs-log, gomobile-ipfs
     - We regularly contribute with enhancements to the other open source projects that we rely on like: go-libp2p, go-libp2p-pubsub, gomobile.
 
-—
 
-Milestones Proposal - Details
+**Milestones Proposal - Details**
 
 **P1: GnoSocial v1 - building the foundations of a web3 implementation of a social app**
 
