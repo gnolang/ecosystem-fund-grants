@@ -1,11 +1,8 @@
-### Name - ZenTasktic
-### Project name - ZenTasktic
-### Team member GitHub handles 
+# ZenTasktic Project Manageme Grant Application
 
-https://github.com/irreverentsimplicity
+- **Project name** - ZenTasktic
+- **Team member GitHub handles** https://github.com/irreverentsimplicity
 
-### Links to Twitter, website - N/A
-### ZenTasktic grant program
 ### Grant type: builder
 
 ### Description
@@ -17,7 +14,7 @@ ZenTasktic is an app implementing the "Assess-Decide-Do" (ADD) productivity fram
 
 The ADD framework implies that we are spending time roughly in 3 main realms: Assess (creativity, evaluation, feedback, brainstorming), Decide (planning, resource allocation) and Do (implementation). An "atomic", clearly defined presence in each realm increases productivity, while lowering both friction and stress, and generates more predictable results. A significant overlappong across two or three realms generates imbalance, increases both frictions and stress, and consumes more energy.
 
-ZenTasktic implements this framework by defining specific workflows and data types. Any task added in "Assess" overloads the system. Once the assessment is done, the task is moved into "Decide" where the system load is managed. The task can either be sent back to Assess (if there are no resources available, for instance), or resources gets allocated and the task is sent to "Do". In "Do", there are mo more operations applied to the task, it stays there until it's either sent back to "Decide" (if more resources are needed), or marked as "Done", which removes the overload on the system.
+ZenTasktic implements this framework by defining specific workflows and data types. Any task added in "Assess" overloads (+) the system. Once the assessment is done, the task is moved into "Decide" (?) where the system load is managed. The task can either be sent back to Assess (if there are no resources available, for instance), or resources gets allocated and the task is sent to "Do". In "Do", there are mo more operations applied to the task, it stays there until it's either sent back to "Decide" (if more resources are needed), or marked as "Done" (-), which removes the overload on the system.
 
 The data types are "editable / deletable" in "Assess" (that's the only place where the content of a task can be edited), "enrichable" in "Decide" (that's where resources like time or materials are added), and "discardable / recyclable" in "Do" (that's where a task is marked as "Done", and eliminated from the system or recycled back into "Decide" or "Assess").
 
@@ -59,7 +56,7 @@ Given the nature of the project, and based on the feedback I will receive from s
 
 ### Your idea for fair funding of the proposal
 
-I request $7200 / month, for the duration of the grant (4 months) - which all cover all the development costs. 
+I request $7200 / month, for the duration of the grant (4 months) - which covers all the development costs. 
 
 ### What do you and the submission bring to the Gno.land platform and community?
 
@@ -68,7 +65,7 @@ The goals of this project are:
 - create a re-usable producivity framework that can be used by other apps or even competing or co-existing project management tools
 - create an opinionated project management app that can be used by gno in the building process
 - create a working example of a simple custom implementation, that can be used as a standalone personal productivity app, or as a starting point for extending it with extra functionality
-- create web and mobile frontends for each of the above 
+- create ready to use web and mobile frontends for each of the above 
 
 ### Share any referrals or other projects you work with
 
