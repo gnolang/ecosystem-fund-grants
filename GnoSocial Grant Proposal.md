@@ -57,7 +57,9 @@ The goal is to create a test-bed for building decentralized social media type of
 ![GnoSocial Roadmap](GnoSocial_Grant_Proposal.jpg)
 
 - **Your idea for fair funding of the proposal**
-    - 6 months of continuous funding, from the beginning of December 2023 until the end of May 2024.
+    - For building GnoSocial v1 we are proposing 6 months of continuous funding, from the beginning of December 2023 until the end of May 2024, of 60k USD per month for a total of 360k USD for the entire project.
+    - Additionally, we are proposing funding for an extra 6k USD for writing a series of 3 technical articles or blog posts to sustain the communication and marketing effort surrounding this project.
+    - Total proposed funding: 366K USD.
 - **What do you and the submission bring to the Gno.land platform and community?**
     - GnoSocial will be the first step in building web3 alternatives to popular web2 social media applications.
     - The R&D parts of our grant will bring new insight into highly relevant topics like DAO collaboration features, smart contract infrastructure scalability and notifications functionality.
