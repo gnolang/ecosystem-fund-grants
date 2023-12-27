@@ -1,19 +1,19 @@
-###Name
+### Name
 PhilH
 
-###Project Name
+### Project Name
 Evaluation DAO
 
-###Contact details
+### Contact details
 [Email](mailto:philh@tribute.coop) | [Twitter](https://twitter.com/phil_h) | [Github](https://github.com/PhilH)
 
-###Title of Grant Submission
+### Title of Grant Submission
 Informing the Future of Open Source Economics in Gno.land
 
-###Grant Type
+### Grant Type
 Tinker
 
-###Description
+### Description
 The proposal aims at:
 - Delivering a comprehensive study to explore and establish effective economic models for rewarding contributions in open source software, specifically tailored for the Gno.land ecosystem.
 - Engaging with Gno.land extended team & actively contributing to the current research on governance and DAO/subDAO organizational design.
@@ -47,11 +47,11 @@ Analysis of evaluation processes of code dependencies.
 Case studies of existing DAOs and open source projects to understand their evaluation mechanisms.
 
 
-###Goal/Purpose
+### Goal/Purpose
 The goal is to offer insights, guidelines, and active engagement that can help Gno.land create a fair and effective system for recognizing and rewarding contributions.
 
 
-###Background
+### Background
 PhilH is active in the DAO space since 2015, as a founder, contributor, advisor, public speaker and writer. His main interests are decentralized governance and commons-based peer production in crypto-networks. He's been working on projects dedicated to DAO tooling, decentralized finance, and work collectives.
 
 He's currently the Governance Lead at Mangrove DAO, where he designed:
@@ -60,7 +60,7 @@ He's currently the Governance Lead at Mangrove DAO, where he designed:
 
 In addition to the core work conducted by PhilH, the study may occasionally draw on the expertise of Daniel Ospina, former Governance Lead at Aragon and founder of RnDAO, a research group and venture studio dedicated to a decentralized future of work. Daniel's unique experience and industry knowledge will complement PhilH's expertise in the exploration and review phases of the study.
 
-###Milestones and Overall Time Frame
+### Milestones and Overall Time Frame
 
 This sort of study can be open-ended. We suggest to stick to a short timeframe for the initial version, so that its preliminary results can be quickly leveraged in order to adjust the current rewards mechanisms.
 
@@ -73,14 +73,14 @@ Assuming no extension of scope, the timeframe for the initial delivery is projec
 Regular updates will be arranged at any frequency Gno.land core team may see fit.
 The active participation of representative of Gno.land core team/DAOs is expected, especially in Phase 1 & 3.
 
-###Idea for Fair Funding
+### Idea for Fair Funding
 
 We expect the total effort of the study to represent 20 and 35 man-days of work over 2 to 3 months, plus up to 5 days of complementary review with RnDAO.
 The direct engagement with Gno.land team with respect to governance and DAO design is expected to take 1 day per week in average. That will be adjusted depending on the needs of Gno.land and our actual availability. Any adjustment will be submitted and formally agreed before being billed.
 We expect funding at a normal daily rate for senior/expert resources (1k€ daily rate).
 
-###Contribution to Gno.land
+### Contribution to Gno.land
 Helping Gno.land to build a more effective contributive economy and governance design for its ecosystem.
 
-###Referrals/Other Projects
+### Referrals/Other Projects
 Backfeed, DAOstack, Tribute, Token Engineering Commons, EthCC/Ethereum France, DGov, BCDiploma, Morpho, Mangrove DAO, Dusa...
