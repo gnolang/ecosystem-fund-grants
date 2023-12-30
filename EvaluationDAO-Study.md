@@ -58,7 +58,7 @@ He's currently the Governance Lead at Mangrove DAO, where he designed:
 - a novel governance model based on multi-stakeholder power distribution,
 - a developer incentives program based on on-chain tracking of developers' contributions.
 
-In addition to the core work conducted by PhilH, the study may occasionally draw on the expertise of Daniel Ospina, former Governance Lead at Aragon and founder of RnDAO, a research group and venture studio dedicated to a decentralized future of work. Daniel's unique experience and industry knowledge will complement PhilH's expertise in the exploration and review phases of the study.
+In addition to the core work conducted by PhilH, the study may occasionally draw on the expertise of Daniel Ospina, former Governance Lead at Aragon and instigator of RnDAO, a research group and venture studio dedicated to a decentralized future of work. Daniel's unique experience and industry knowledge will complement PhilH's expertise in the exploration and review phases of the study.
 
 ### Milestones and Overall Time Frame
 
