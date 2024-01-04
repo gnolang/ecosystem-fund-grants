@@ -75,7 +75,7 @@ The active participation of representative of Gno.land core team/DAOs is expecte
 
 ### Idea for Fair Funding
 
-We expect the total effort of the study to represent 20 and 35 man-days of work over 2 to 3 months, plus up to 5 days of complementary review with RnDAO.
+We expect the total effort of the study to represent between 20 and 35 man-days of work over 2 to 3 months, plus up to 5 days of complementary review with RnDAO.
 The direct engagement with Gno.land team with respect to governance and DAO design is expected to take 1 day per week in average. That will be adjusted depending on the needs of Gno.land and our actual availability. Any adjustment will be submitted and formally agreed before being billed.
 We expect funding at a normal daily rate for senior/expert resources (1k€ daily rate).
 
