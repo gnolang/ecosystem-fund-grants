@@ -62,8 +62,8 @@ We are open-minded, so any grant that is in line with some of the context listed
 ## How to apply
 
 To start the process, you'll need to:
-1. Fork this repo the Gno.land Funding and Grant Program repository
-2. Create a new file with your project’s name
+1. Fork this repo
+2. Create a new `.md` file with your project’s name under the `grants` folder
 3. Outline your proposal in that file as outlined in the grant application template
 4. Create a Pull Request
 
