@@ -54,7 +54,7 @@ The goal is to create a test-bed for building decentralized social media type of
         - We will also make intermediary demos when it makes sense and we also plan to write at least one blogpost related to this grant.
         - If it will make sense and if we will have the resources, we will organize workshops to familiarize the interested partners with the results that will emerge from this grant.
 
-![GnoSocial Roadmap](GnoSocial_Grant_Proposal.jpg)
+![GnoSocial Roadmap](./gnosocial.jpg)
 
 - **Your idea for fair funding of the proposal**
     - For building GnoSocial v1 we are proposing 6 months of continuous funding, from the beginning of December 2023 until the end of May 2024, of 60k USD per month for a total of 360k USD for the entire project.

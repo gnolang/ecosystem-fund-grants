@@ -1,7 +1,5 @@
 # Berty X Gno Grant Application
 
-
-
 * **Name:** Berty Technologies
 * **Project name**: Gno on Mobile
 
@@ -16,7 +14,6 @@ Berty plans to integrate "Wesh Network" into the app architecture, resulting in 
 3. Local (device-specific) network representation enabling pathfinding to the Gno blockchain via relays on other devices.
 
 Our goal is to create a user-friendly and decentralized mobile app that offers a seamless experience. It would be resistant to censorship, ensuring freedom of content through Gno's consensus mechanism and a censorship-resistant network powered by Wesh Network. We strive to develop the most usable and unstoppable social networking app available.
-
 
 
 * **Team member GitHub handles (if applicable)**: jefft0, d4ryl00, iuricmp
@@ -72,15 +69,10 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
         * We maintain multiple open-source projects besides the Berty Messenger app: go-orbit-db, go-ipfs-log, gomobile-ipfs
     * We regularly contribute with enhancements to the other open source projects that we rely on like: go-libp2p, go-libp2p-pubsub, gomobile.
 
-—
-
-
 ## Milestones Proposal - Details
 
 **M0: Pay to Explore:  \
 **One month
-
-
 
 * Write simple contracts (e.g. escrow or other existing examples from the Gno basic contracts), designed to test upcoming mobile apps and get the Berty team knowing Gno (Gnowing)
 * Join weekly meetings to understand the technical challenges for building with Gno on mobile
@@ -92,8 +84,6 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
 **M1: Pay to build: Gno Mobile demo and foundations**
 
 	-> 3 months+ (reevaluate on 3rd month)
-
-
 
 * Write a mobile app demo connecting to Gno testnets and allowing to interact with contracts
 * Implement simple CI/CD to make the development and reviews of the app smoother 
@@ -107,8 +97,6 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
 
 	-> ~3-6m - delivering the entire scope may require additional hiring 
 
-
-
 * Explore with existing partners (Teritori, Onbloc) to see how much they can run mobile apps and how the demo enhances their projects
 * Example of standalone app running Gno & Berty’s Wesh Network, that showcase how Gno can function offgrid (peer2peer) 
 * Documentation on how to use the framework and API 
@@ -120,8 +108,6 @@ Our goal is to create a user-friendly and decentralized mobile app that offers a
 **M3: Help NT on Social App V0**
 
 	-> estimation: N/A
-
-
 
 * Depending on product definition w/ NT
 * Plan is to help the NT team to build and run the app
