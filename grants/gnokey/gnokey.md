@@ -22,3 +22,6 @@ FEEDBACK NEEDED: please have a look at the videos below that describe our propos
 - General Approach: [https://www.loom.com/share/27b0aaf07d2c4141bbf753efa5b2e189](https://www.loom.com/share/27b0aaf07d2c4141bbf753efa5b2e189)
 - Tech explanations of the HL architecture (view in desktop browser or desktop Miro app and click play): [https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b](https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b)
 
+![Gnokey_SysDiagram](https://github.com/costinberty/ecosystem-fund-grants/assets/109347079/b968019e-2ddd-4084-9fa5-b0db5072ec91)
+
+![Gnokey_Signing_Alternatives](https://github.com/costinberty/ecosystem-fund-grants/assets/109347079/d6f618b8-42e2-45fc-9974-b415277e7ff8)
