@@ -13,7 +13,7 @@ To build Gnokey we at Berty are proposing a 3 step approach:
 
 - Step 1: identify main features of Gnokey as well as a high-level architecture or system diagram - DONE
 - Step 2: work with Gno team to identify a 3rd party security expert that can help detail the technical architecture so we make sure that Gnokey is secure and that users can trust it. This would actually be the objective of the Grant proposal: to obtain a technical implementation plan that we can later implement.
-- Step 3: building on the technical implementation plan from Step 2 (Gnokey Grant), we decide who is best positioned to build the app. I[t](http://app.It) could be the Berty team, Gno or someone else.
+- Step 3: building on the technical implementation plan from Step 2 (Gnokey Grant), we decide who is best positioned to build the app. It could be the Berty team, Gno or someone else.
 
 For the moment we are looking for feedback on the approach for Step 2 - which is actually this grant proposal.
 
