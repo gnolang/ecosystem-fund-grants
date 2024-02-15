@@ -5,7 +5,7 @@
 - **Name:** Berty Technologies
 - **Project name**: Gnokey
 
-This document is only a DRAFT Grant application and it describes the idea behind the Gnokey application. It purpose is to serve as support to polish the collaborative approach we are proposing in this grant. 
+This document is only a DRAFT Grant application and it describes the idea behind the Gnokey application. Its purpose is to serve as support to polish the collaborative approach we are proposing in this grant. 
 
 In a nuthsell the Gnokey application will be a mobile application that users will use to SECURELY manage their key and signt the transactions. One of the main benefits is that (D)apps builders will not have to worry about building in their apps the security part and they could just “outsource” it to the Gnokey app and remain focused on building their app’s main functionalities.
 
