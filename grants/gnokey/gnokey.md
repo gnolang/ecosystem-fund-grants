@@ -20,5 +20,5 @@ For the moment we are looking for feedback on the approach for Step 2 - which is
 FEEDBACK NEEDED: please have a look at the videos below that describe our proposed approach as well as an explanations of the high-level technical diagram:
 
 - General Approach: [https://www.loom.com/share/27b0aaf07d2c4141bbf753efa5b2e189](https://www.loom.com/share/27b0aaf07d2c4141bbf753efa5b2e189)
-- Tech explanations of the HL architecture (view in desktop browser or desktop Miro app): [https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b](https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b)
+- Tech explanations of the HL architecture (view in desktop browser or desktop Miro app and click play): [https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b](https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b)
 
