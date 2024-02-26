@@ -63,7 +63,7 @@
         The project team members will not need to be 100% dedicated to this project as we expert the work to be done mostly in spikes. Meetings time will be kept to a minimum and we will do the maximum of async communication.
         
     
-    ![Gnokey Step 2 Project Phases and Timeline.jpg](Gno%20Grant#3%20Gnokey%20Security%20Architecture%20e1b779739b9e4035926fe0108f30ab82/Gnokey_Step_2_Project_Phases_and_Timeline.jpg)
+    ![Gnokey Step 2 Project Phases and Timeline.jpg](Gnokey-Step-2-Project-Phases-and-Timeline.jpg)
     
     - A description of the proposed general approach for Gnokey is [here](https://www.loom.com/share/27b0aaf07d2c4141bbf753efa5b2e189)
     - A more detailed overview of the technical challenge can be found [here](https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b) (the link works only on desktop and will open a video embedded in a Miro board)
