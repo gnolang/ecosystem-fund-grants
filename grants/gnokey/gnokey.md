@@ -45,9 +45,9 @@
         1. Obtain a short of security experts - look in the market for a list of security experts (organisations) that could help us obtain the security plan.
             - Estimate duration: ~1 month
         2. Exploratory meetings - Conduct a series of talks with the shortlisted security experts to make sure we they understand our needs as clients and that we get a more complete understanding of their services.
-            - Estimate duration: ~1,5 months
+            - Estimate duration: ~1.5 months
         3. Evaluation and Selection - choose the preferred security provider and reach an agreement (sign a contract). Since the contract will be signed between the Gno team and the Security Provider, we will need the support of a contracts manager (or equivalent role) from AiB.
-            - Estimate duration: ~1,5 months
+            - Estimate duration: ~1.5 months
         4. Design the Gnokey Security Architecture - work with the security provider, most likely in iterations, to design the the security architecture of Gnokey.
             - Estimate duration: ~2 months
         
@@ -69,7 +69,7 @@
     - A more detailed overview of the technical challenge can be found [here](https://miro.com/app/board/uXjVN3d9Pts=/?playRecording=3439faf7-4413-4ebb-9d36-51aac2be588b) (the link works only on desktop and will open a video embedded in a Miro board)
 - **Your idea for fair funding of the proposal**
     - We estimate that for the Berty team this grant research project will require the equivalent of 1 month of work. So, we are asking for a 60.000 € funding, representing a full month of our operational expenses.
-    - ⚠️ Observation: the Gnokey grant may impact the timeline of our existing Gnosocial grant and may cause a delay for the later of approximately 1 - 1,5 months.
+    - ⚠️ Observation: the Gnokey grant may impact the timeline of our existing Gnosocial grant and may cause a delay for the later of approximately 1 - 1.5 months.
 - **What do you and the submission bring to the Gno.land platform and community?**
     - In support of builders, Gnokey will take care of all the security around keys and transaction management. So developers will be able to focus on building their apps, while having the peace of mind that the security is taken care of by Gnokey.
     - We have already made the first steps for building Gnokey and now we need Gno’s help and funding to complete the security design of the tool.
