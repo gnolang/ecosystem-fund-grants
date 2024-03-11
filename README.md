@@ -17,8 +17,7 @@ We're on the lookout for passionate contributors who are interested in building 
 
 **Tinkerer**: you want to build by experimenting and inventing. You bring a new perspective to the project and can tackle complex problems. We want to pay to see what you bring as a value add, and that is how this funding works. A tinker grant recipient is autonomous and is evaluated based on proof of delivery - its about the value of your contributions as you go. 
 
-For the tinker program, we have three categories:
-   * A student program run through cohorts, only with partner universities (feel free to propose yours)
+For the tinker program, we have two categories:
    * A developer program run through cohorts: this is for tinkers who have the initial background and motivation, but are still new in development or in Gno
    * An advanced program for specialized and senior tinkerers or organizations: this is for tinkers with 10+ years experience in developing in web2, web3…etc.
 
