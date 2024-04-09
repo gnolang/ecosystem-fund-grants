@@ -46,6 +46,7 @@ The grant should support the complete porting of the game to the Gno platform, i
 ## Contributions, issues and pull requests made to Gno and Game of Realms (links please)
 
 - [feat: ability to ignore lint diagnostics in realms (ONGOING)](https://github.com/gnolang/gno/pull/1450)
+- [chore: add code facilitators ci ](https://github.com/gnolang/gno/pull/1660)
 
 ## Why are you best suited/what is your background (or team’s if applicable) (applies to all submissions)?
 
@@ -54,27 +55,17 @@ As a seasoned smart contract engineer with a primary background in Solidity, I'v
 ## Milestones and overall time frame of your proposal
 Milestones are per the project's roadmap and will be updated as the project progresses.
 
-### Milestone 1: Indexer and Smart Contracts **22 days**
+### Milestone 1: Smart Contracts **12 days**
 
-1. Indexer **12 days**
-    - [ ] Store blocks in a SQL database
-    - [ ] Retrieve the token transfers of each transaction ans store them in a SQL database
-    - [ ] Handle the case a block is reorged (soft fork / hard fork)
-    - [ ] Handle the case a block is wrong (revalidate the block data and hashs)
-    - [ ] Retrieve the creation of DAOs and store them in a SQL database
-    - [ ] Ability to catch up with the current block
-    - [ ] Create a Dockerfile to deploy the indexer on a server
-    - [ ] Create a documentation on how to use the indexer and how it works
-
-2. Smart Contracts **10 days**
+1. Smart Contracts **12 days**
     - [ ] Create a DAO smart contract with a few functions mainly to set core DAO settings
     - [ ] Create a Proxy Minimal Factory to create a new DAO smart contract
     - [ ] Create the Delegation smart contract which has the ability for a user to delegate his voting power to another address in a DAO
     - [ ] Test everything on a testnet
 
-### Milestone 2: Frontend and Backend **35 days**
+### Milestone 2: Frontend and Backend **42 days**
 
-1. Frontend **20 days**
+1. Frontend **24 days** using NextJs in Typescript
     - [ ] Create a landing page for the whole application
     - [ ] Create a page to view a DAO and its proposals
     - [ ] Create a page to access settings of a DAO
@@ -86,7 +77,7 @@ Milestones are per the project's roadmap and will be updated as the project prog
     - [ ] Create a Dockerfile to deploy the frontend on a server
     - [ ] Create a documentation on how to use the frontend and how it works with tutorials
 
-2. Backend **15 days**
+2. Backend **18 days** using Gin framework in Go
     - [ ] Create a REST API to interact with the frontend
        - [ ] Create a vote based on the signature route
        - [ ] Create a proposal based on the signature route
@@ -103,7 +94,7 @@ Milestones are per the project's roadmap and will be updated as the project prog
 
 ## Your idea for fair funding of the proposal
 
-The total grant request based on a daily rate of 450 is 27900 USD.
+The total grant request based on a daily rate of 450 is 26550 USD.
 
 On top of it, I will request 200$ per month for the required cloud infrastructure which needs a persistent server to run the indexer and the backend.
 
