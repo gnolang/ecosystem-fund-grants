@@ -4,7 +4,7 @@
 
 # Gno.land Grants Program
 
-The mission of the Gno.land Funding and Grants Program is to encourage and support the growth of the Gnolang contributor community, and build out the usability of the platform and smart contract library. The program will award grants and financial contributions to teams and individuals building projects, dApps, tooling, infrastructure, products, and smart contract libraries in Gno.land.
+The mission of the Gno.land Funding and Grants Program is to encourage and support the growth of the Gnolang contributor community, and build out the usability of the platform and smart contract library. The program will award grants and financial contributions to individuals building projects, dApps, tooling, infrastructure, products, and smart contract libraries in Gno.land.
 
 As Gno.land is built using a new consensus mechanism, Proof of Contribution, and is still in the initial stages, this program is a way to incentivize and fund individuals and teams to use the new mechanism. The allocated amount of each grant will reflect the scope and ambition of the proposal and its priority within the Gno.land platform.
 
