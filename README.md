@@ -2,7 +2,7 @@
 ![image](https://github.com/gnolang/ecosystem-fund-grants/assets/117160070/47c75689-705e-46f7-89c0-8adf8cbe6bd0)
 
 
-# Gno.land Ecosystem Funding and Grants Program
+# Gno.land Grants Program
 
 The mission of the Gno.land Funding and Grants Program is to encourage and support the growth of the Gnolang contributor community, and build out the usability of the platform and smart contract library. The program will award grants and financial contributions to teams and individuals building projects, dApps, tooling, infrastructure, products, and smart contract libraries in Gno.land.
 
@@ -11,20 +11,11 @@ As Gno.land is built using a new consensus mechanism, Proof of Contribution, and
 
 ## How to get involved
 
-We're on the lookout for passionate contributors who are interested in building new projects, dApps, tooling, infrastructure, or smart contract libraries in Gno.land. If you're participating in our ongoing incentivized Game of Realms competition or contributing to PRs and issues on the Gno.land repos and you have an idea for a new project, be sure to apply! Game of Realms is the gateway to joining the Gno.land universe and being an existing Gno.land contributor is a prerequisite of the funding and grant application process. Be sure to highlight your contribution in the submission listed below.
+We're on the lookout for passionate contributors who are interested in building new projects, dApps, tooling, infrastructure, or smart contract libraries in Gno.land. If you're participating in our ongoing incentivized Game of Realms competition or contributing to PRs and issues on the Gno.land repos and you have an idea for a new project, be sure to apply!
 
 ## What kind of contributors are we looking for?
 
-**Tinkerer**: you want to build by experimenting and inventing. You bring a new perspective to the project and can tackle complex problems. We want to pay to see what you bring as a value add, and that is how this funding works. A tinker grant recipient is autonomous and is evaluated based on proof of delivery - its about the value of your contributions as you go. 
-
-For the tinker program, we have two categories:
-   * A developer program run through cohorts: this is for tinkers who have the initial background and motivation, but are still new in development or in Gno
-   * An advanced program for specialized and senior tinkerers or organizations: this is for tinkers with 10+ years experience in developing in web2, web3…etc.
-
-**Builder**: You have an idea for an application, you are using the tech and want to work in complimentary infrastructure to support it, you have an idea for a product. You have the framework of what you want to contribute.
-
-**Researcher**: you want to discover and analyze by deep diving into topics linked to the Gno.land.
-
+Individual contributors interested in building and developing on Gno.land
 
 ## What kind of proposals are we looking for?
 
