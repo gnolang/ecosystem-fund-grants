@@ -64,10 +64,6 @@ Following the submission and informational session, the grant team will review t
 If the grant team finds it meets the requirements and brings added value to the Gno.land ecosystem, the submission will be passed along to the review committee. The review committee will meet quarterly to review submission, and in exceptional cases, maybe sooner.
 
 
-## How do you get funded
-
-We will pay primarily in Fiat or ATOM and on a milestone, or delivery basis.
-
 ## Follow the journey
 
 You can check out our grant recipients journey's on their projects and work progress on the Hackerspace repo: https://github.com/gnolang/hackerspace/issues
@@ -79,20 +75,18 @@ We want the funding and grant process to be as transparent and easy as possible,
 ## Application template
 
 * Name
-* Project name (if applicable)
-* Team member GitHub handles (if applicable)
+* GitHub handle
 * Email 
 * Links to Twitter, website..etc.
 * The title of your grant submission (how do you want us to remember you 😊)
-* Grant type (from examples in Readme)- tinker, builder, researcher
+* Potential focus for the grant based on your expertise  
 * A short description of what you are proposing (applies to all submissions)
 * What is the goal or the purpose of the proposed grant? (applies to all submissions)
 * Contributions, issues and pull requests made to Gno and Game of Realms (links please)
-* Why are you best suited/what is your background (or team’s if applicable) (applies to all submissions)?
-* Milestones and overall time frame of your proposal
+* Why are you best suited/what is your background for the team to review your profile
 * Your idea for fair funding of the proposal
 * What do you and the submission bring to the Gno.land platform and community?
-* Share any referrals or other projects you work with
+* Share any referrals or other projects you work with, and examples where you've already started contributing to the project!
 
 
 You can also email us at hello@tendermint.com with questions or if you've submitted and want to let us know!
