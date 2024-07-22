@@ -19,11 +19,17 @@ Individual contributors interested in building and developing on Gno.land
 
 ## What kind of proposals are we looking for?
 
-**Applications**
+**Applications (Gno dApps)**
 
+We want to support interesting smart contracts written in Gno that will either be useful as libraries, or be viral in adoption. Games, Defi applications don’t already exist, but more interestingly social communication and coordination applications. The initial expected deliverables: First an English written draft spec, before any implementation. 
+
+* Improvements to the demo/board application to make it actually useful.
+* General applications that can be used for proof-of-person.
+* Name registration contracts, etc. 
 * Surprise us with the next killer app
-* Build, test, and launch a suite of Gno.land apps for the community, focusing on diverse use cases and industries such as DeFi, gaming, supply chain management, and social networks. Ensure that these apps cater to both individual users and businesses
+* Build, test, and launch a suite of Gno.land apps for the community, focusing on diverse use cases and industries such as DeFi, gaming, supply chain management, and social communication and coordination applications. 
 * These apps should integrate seamlessly with existing Gno.land infrastructure, encourage user interaction, and promote the adoption of Gno.land services
+
 
 **Products** 
 
@@ -31,6 +37,13 @@ Individual contributors interested in building and developing on Gno.land
 * Create comprehensive documentation, including guides, tutorials, and API references, to help users understand and utilize Gno.land's features and services more effectively.
 * Design and implement an event system for Gno.land contracts, allowing for real-time monitoring, analysis, and auditing of contract-related events.
 
+**GnoVM**
+##### Expected Deliverables (one of)
+* Bug fixes to the GnoVM
+* Specification for persistent state garbage collection. The Gno smart contracting platform can create cycles in persistent state that cannot be garbage collected by the Go runtime (which Gno piggy backs on for in-transaction garbage collection). We want to consider both in-realm incremental garbage collection as well as inter-realm global garbage collection as two separate modules to explore in parallel. See the upcoming gno.land whitepaper for more details.
+* Specification for bonded persistent state garbage collection. In addition to the above, we want to consider a specification for bonded garbage collection of persistent state that may cross realm boundaries. The general idea is that anyone can put up a bond and specify any object ID, from which point this garbage collector will begin iterating over the reachable objects to determine whether the object ID is indeed part of a cycle that should be garbage collected. If during this computation it turns out that it should *not* be garbage collected, then the bond should be burned, and have no effect. This garbage collector must also be incremental and deterministic, so that all the validators can run it in sync, and incrementally per block. 
+* Gno code fuzzing tool that can generate fuzzed Gno code, for comparing behavior against the Go compiler. This is expected to be difficult, because it should be able to generate arbitrary code that also happens to terminate. Another thing to consider is that map iteration in Go is non-deterministic, so the fuzzer should have two modes; one that can generate Gno code that also is also deterministic in Go, and another mode that can generate Gno code that includes things like map iteration which is not compared against the Go result, but is only used for running in GNO to check for consistency and panics.
+* Specifications for improvements to the Gno language to help with garbage collection, reference counting, merkle hash computation, and general safety of smart contracts written in Gno. 
 
 **Interoperability and Integration**
 
