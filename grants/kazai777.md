@@ -21,7 +21,7 @@ The purpose of this grant is to allow me to devote my full time to Gno, in order
 During my studies I learned a lot about Go, which is an advantage for Gno. In addition, during the Student Program I had the opportunity to discover the world of Gno and Blockchain, which fascinated me. Contributing to the creation of a major advance in the world of blockchain, especially for developers thanks to gnolang, is a goal I'm keen to achieve. 
 
 ### Your idea for fair funding of the proposal
-Based on the salary data on the web3 jobs website. I am asking for a remuneration of 7k€/month. My request is based on the average salary of a Junior Blockchain Developer in Remote.
+Based on the salary data on the web3 jobs website. I am asking for a remuneration of 7k€/month for full-time work. My request is based on the average salary of a Junior Blockchain Developer in Remote.
 
 ### What do you and the submission bring to the Gno.land platform and community?
 My goal is to provide as many packages and realms as possible to make gno easier to use for developers and to contribute to the evolution of Gno.land. In addition, with the BootCamp [GnoPool](https://hackmd.io/JRatkf0wQ_uYB5G2wNvRRw) that I'm planning to develop with the Rouen team, this will provide important learning support for the community wishing to start developing contracts on Gno.land.
