@@ -2,38 +2,34 @@
 ![image](https://github.com/gnolang/ecosystem-fund-grants/assets/117160070/47c75689-705e-46f7-89c0-8adf8cbe6bd0)
 
 
-# Gno.land Ecosystem Funding and Grants Program
+# Gno.land Grants Program
 
-The mission of the Gno.land Funding and Grants Program is to encourage and support the growth of the Gnolang contributor community, and build out the usability of the platform and smart contract library. The program will award grants and financial contributions to teams and individuals building projects, dApps, tooling, infrastructure, products, and smart contract libraries in Gno.land.
+The mission of the Gno.land Funding and Grants Program is to encourage and support the growth of the Gnolang contributor community, and build out the usability of the platform and smart contract library. The program will award grants and financial contributions to individuals building projects, dApps, tooling, infrastructure, products, and smart contract libraries in Gno.land.
 
 As Gno.land is built using a new consensus mechanism, Proof of Contribution, and is still in the initial stages, this program is a way to incentivize and fund individuals and teams to use the new mechanism. The allocated amount of each grant will reflect the scope and ambition of the proposal and its priority within the Gno.land platform.
 
 
 ## How to get involved
 
-We're on the lookout for passionate contributors who are interested in building new projects, dApps, tooling, infrastructure, or smart contract libraries in Gno.land. If you're participating in our ongoing incentivized Game of Realms competition or contributing to PRs and issues on the Gno.land repos and you have an idea for a new project, be sure to apply! Game of Realms is the gateway to joining the Gno.land universe and being an existing Gno.land contributor is a prerequisite of the funding and grant application process. Be sure to highlight your contribution in the submission listed below.
+We're on the lookout for passionate contributors who are interested in building new projects, dApps, tooling, infrastructure, or smart contract libraries in Gno.land. If you're participating in our ongoing incentivized Game of Realms competition or contributing to PRs and issues on the Gno.land repos and you have an idea for a new project, be sure to apply!
 
 ## What kind of contributors are we looking for?
 
-**Tinkerer**: you want to build by experimenting and inventing. You bring a new perspective to the project and can tackle complex problems. We want to pay to see what you bring as a value add, and that is how this funding works. A tinker grant recipient is autonomous and is evaluated based on proof of delivery - its about the value of your contributions as you go. 
-
-For the tinker program, we have three categories:
-   * A student program run through cohorts, only with partner universities (feel free to propose yours)
-   * A developer program run through cohorts: this is for tinkers who have the initial background and motivation, but are still new in development or in Gno
-   * An advanced program for specialized and senior tinkerers or organizations: this is for tinkers with 10+ years experience in developing in web2, web3…etc.
-
-**Builder**: You have an idea for an application, you are using the tech and want to work in complimentary infrastructure to support it, you have an idea for a product. You have the framework of what you want to contribute.
-
-**Researcher**: you want to discover and analyze by deep diving into topics linked to the Gno.land.
-
+Individual contributors interested in building and developing on Gno.land
 
 ## What kind of proposals are we looking for?
 
-**Applications**
+**Applications (Gno dApps)**
 
+We want to support interesting smart contracts written in Gno that will either be useful as libraries, or be viral in adoption. Games, Defi applications don’t already exist, but more interestingly social communication and coordination applications. The initial expected deliverables: First an English written draft spec, before any implementation. 
+
+* Improvements to the demo/board application to make it actually useful.
+* General applications that can be used for proof-of-person.
+* Name registration contracts, etc. 
 * Surprise us with the next killer app
-* Build, test, and launch a suite of Gno.land apps for the community, focusing on diverse use cases and industries such as DeFi, gaming, supply chain management, and social networks. Ensure that these apps cater to both individual users and businesses
+* Build, test, and launch a suite of Gno.land apps for the community, focusing on diverse use cases and industries such as DeFi, gaming, supply chain management, and social communication and coordination applications. 
 * These apps should integrate seamlessly with existing Gno.land infrastructure, encourage user interaction, and promote the adoption of Gno.land services
+
 
 **Products** 
 
@@ -41,6 +37,13 @@ For the tinker program, we have three categories:
 * Create comprehensive documentation, including guides, tutorials, and API references, to help users understand and utilize Gno.land's features and services more effectively.
 * Design and implement an event system for Gno.land contracts, allowing for real-time monitoring, analysis, and auditing of contract-related events.
 
+**GnoVM**
+##### Expected Deliverables (one of)
+* Bug fixes to the GnoVM
+* Specification for persistent state garbage collection. The Gno smart contracting platform can create cycles in persistent state that cannot be garbage collected by the Go runtime (which Gno piggy backs on for in-transaction garbage collection). We want to consider both in-realm incremental garbage collection as well as inter-realm global garbage collection as two separate modules to explore in parallel. See the upcoming gno.land whitepaper for more details.
+* Specification for bonded persistent state garbage collection. In addition to the above, we want to consider a specification for bonded garbage collection of persistent state that may cross realm boundaries. The general idea is that anyone can put up a bond and specify any object ID, from which point this garbage collector will begin iterating over the reachable objects to determine whether the object ID is indeed part of a cycle that should be garbage collected. If during this computation it turns out that it should *not* be garbage collected, then the bond should be burned, and have no effect. This garbage collector must also be incremental and deterministic, so that all the validators can run it in sync, and incrementally per block. 
+* Gno code fuzzing tool that can generate fuzzed Gno code, for comparing behavior against the Go compiler. This is expected to be difficult, because it should be able to generate arbitrary code that also happens to terminate. Another thing to consider is that map iteration in Go is non-deterministic, so the fuzzer should have two modes; one that can generate Gno code that also is also deterministic in Go, and another mode that can generate Gno code that includes things like map iteration which is not compared against the Go result, but is only used for running in GNO to check for consistency and panics.
+* Specifications for improvements to the Gno language to help with garbage collection, reference counting, merkle hash computation, and general safety of smart contracts written in Gno. 
 
 **Interoperability and Integration**
 
@@ -53,7 +56,6 @@ For the tinker program, we have three categories:
 * Develop comprehensive GitHub and AWS integration for Gno.land, including streamlined deployment processes, continuous integration and delivery pipelines, and monitoring tools.
 * Create Helm charts for easy deployment and management of Gno clusters, enabling users to quickly set up and scale their Gno infrastructure.
 * Improve overall quality by working on the testing pipeline and improve CI/CD.
-* Enhance Gno.land security by conducting regular vulnerability assessments, penetration testing, and implementing best practices for secure smart contract development.
 * Improve validator and developer experience, especially when developing locally.
 * You can select an idea from there too: https://github.com/gnolang/hackerspace/issues
 
@@ -63,8 +65,8 @@ We are open-minded, so any grant that is in line with some of the context listed
 ## How to apply
 
 To start the process, you'll need to:
-1. Fork this repo the Gno.land Funding and Grant Program repository
-2. Create a new file with your project’s name
+1. Fork this repo
+2. Create a new `.md` file with your project’s name under the `grants` folder
 3. Outline your proposal in that file as outlined in the grant application template
 4. Create a Pull Request
 
@@ -74,10 +76,6 @@ Following the submission and informational session, the grant team will review t
 
 If the grant team finds it meets the requirements and brings added value to the Gno.land ecosystem, the submission will be passed along to the review committee. The review committee will meet quarterly to review submission, and in exceptional cases, maybe sooner.
 
-
-## How do you get funded
-
-We will pay primarily in Fiat or ATOM and on a milestone, or delivery basis.
 
 ## Follow the journey
 
@@ -90,19 +88,18 @@ We want the funding and grant process to be as transparent and easy as possible,
 ## Application template
 
 * Name
-* Project name (if applicable)
-* Team member GitHub handles (if applicable)
+* GitHub handle
+* Email 
 * Links to Twitter, website..etc.
 * The title of your grant submission (how do you want us to remember you 😊)
-* Grant type (from examples in Readme)- tinker, builder, researcher
+* Potential focus for the grant based on your expertise  
 * A short description of what you are proposing (applies to all submissions)
 * What is the goal or the purpose of the proposed grant? (applies to all submissions)
 * Contributions, issues and pull requests made to Gno and Game of Realms (links please)
-* Why are you best suited/what is your background (or team’s if applicable) (applies to all submissions)?
-* Milestones and overall time frame of your proposal
+* Why are you best suited/what is your background for the team to review your profile
 * Your idea for fair funding of the proposal
 * What do you and the submission bring to the Gno.land platform and community?
-* Share any referrals or other projects you work with
+* Share any referrals or other projects you work with, and examples where you've already started contributing to the project!
 
 
 You can also email us at hello@tendermint.com with questions or if you've submitted and want to let us know!
