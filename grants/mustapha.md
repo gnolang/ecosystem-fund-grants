@@ -31,6 +31,6 @@ During my time here, I have actively applied my knowledge and strived to learn a
 I am requesting a salary of €5,000 per month for a full-time position. This request is based on my initial professional experience in the fields of blockchain and web3.
 
 ### What do you and the submission bring to the Gno.land platform and community?
-My goal is to create numerous packages and domains, develop dapps, and promote Gno to attract potential contributors, thereby driving the evolution of Gno.land. Additionally, the [GnoPool](https://hackmd.io/JRatkf0wQ_uYB5G2wNvRRw) BootCamp I plan to develop with the Rouen team will offer essential learning support for the community, helping new developers start building contracts on Gno.land.
+My goal is to create packages and realms, develop dapps, and promote Gno to attract potential contributors, thereby driving the evolution of Gno.land. Additionally, the [GnoPool](https://hackmd.io/JRatkf0wQ_uYB5G2wNvRRw) BootCamp I plan to develop with the Rouen team will offer essential learning support for the community, helping new developers start building contracts on Gno.land.
 
 ecosystem-fund-grants/grants/mous1985.md
